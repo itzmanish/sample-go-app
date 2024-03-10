@@ -10,6 +10,8 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
+redisURI: "redis://:redis@redis-redis-cluster.testing.svc.cluster.local:6379"
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""

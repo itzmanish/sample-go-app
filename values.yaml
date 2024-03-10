@@ -42,12 +42,6 @@ service:
   type: ClusterIP
   port: 8080
 
-env:
-  - name: "nodeId"
-    value: "hive-test"
-  - name: REDIS_URI
-    value: "redis://:redis@redis-redis-cluster.testing.svc.cluster.local:6379"
-
 ingress:
   enabled: false
   className: ""
